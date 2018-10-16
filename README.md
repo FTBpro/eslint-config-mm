@@ -11,12 +11,12 @@ Add to package.json :
 
 * dependencies:
 ```
- "eslint": "^4.10.0"
- "eslint-config-mm": "git+ssh://git@github.com:FTBpro/eslint-config-mm.git#v1.0"
+ "eslint": "^5.7.0"
+ "eslint-config-mm": "git+ssh://git@github.com:FTBpro/eslint-config-mm.git#v2.0"
 ```
 * For webpack in addition add:
 ```
- "eslint-loader": "1.9.0"
+ "eslint-loader": "2.1.1"
 ```
 * configure ESLint:
 ```
