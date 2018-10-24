@@ -6,6 +6,7 @@ Created for shared use between different repositories.
 Extends [airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) package.
 
 # Setup
+Prerequisites: Node.js (>=6.14), npm version 3+.
 
 Add to package.json :
 
@@ -21,6 +22,6 @@ Add to package.json :
 * configure ESLint:
 ```
    "eslintConfig": {
-     "extends": "eslint-config-mm"
-   }
+         "extends": "eslint-config-mm"
+       }
 ```
