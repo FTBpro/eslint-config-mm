@@ -19,6 +19,10 @@ Add to package.json :
 ```
  "eslint-loader": "2.1.1"
 ```
+* For rollup in addition add:
+```
+ "rollup-plugin-eslint": "^5.0.0"
+```
 * configure ESLint:
 ```
    "eslintConfig": {
