@@ -11,7 +11,6 @@ module.exports = {
     jest: true,
   },
   parser: 'babel-eslint',
-  plugins: ['class-property'],
   rules: {
     camelcase: 0,
     'class-methods-use-this': 0,
