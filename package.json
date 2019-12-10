@@ -14,13 +14,5 @@
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.0"
-  },
-  "eslintConfig": {
-    "plugins": [
-      "babel"
-    ],
-    "rules": {
-      "babel/semi": 1
-    }
   }
 }
