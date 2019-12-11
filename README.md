@@ -13,7 +13,7 @@ Add to package.json :
 * dependencies:
 ```
  "eslint": "^6.7.0"
- "eslint-config-mm": "git+https://github.com/FTBpro/eslint-config-mm.git#v3.0"
+ "eslint-config-mm": "git+https://github.com/FTBpro/eslint-config-mm.git#v3.1"
 ```
 * For webpack in addition add:
 ```

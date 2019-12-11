@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'airbnb',
+  extends: ['airbnb', 'airbnb/hooks'],
   parserOptions: {
     ecmaVersion: 2018,
     ecmaFeatures: {
@@ -11,9 +11,10 @@ module.exports = {
     jest: true,
   },
   parser: 'babel-eslint',
-  plugins: ['class-property'],
+  plugins: ['babel'],
   rules: {
     camelcase: 0,
+    'babel/semi': 1,
     'class-methods-use-this': 0,
     'import/prefer-default-export': 0,
     'react/jsx-filename-extension': 0,
