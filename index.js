@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks'],
+  extends: 'airbnb',
   parserOptions: {
     ecmaVersion: 2018,
     ecmaFeatures: {
